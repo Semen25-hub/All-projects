@@ -1,0 +1,261 @@
+{
+  "id": "d0c2c4a3-e186-4f3f-880e-2de7fb654e39",
+  "version": "2.0",
+  "name": "Project2 (openweather)",
+  "url": "https://home.openweathermap.org/users/sign_in",
+  "tests": [{
+    "id": "e9b78414-e821-47ba-be3d-6a408de41101",
+    "name": "Test \"Openweather\"",
+    "commands": [{
+      "id": "7a079c1c-ad46-492c-a1d0-445733ec3652",
+      "comment": "",
+      "command": "open",
+      "target": "https://home.openweathermap.org/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbb1b712-3ad3-497e-9814-378fa775c280",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3010f4f-68d0-413f-8081-722470b7b99c",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_email",
+      "targets": [
+        ["id=user_email", "id"],
+        ["name=user[email]", "name"],
+        ["css=.input-group > #user_email", "css:finder"],
+        ["xpath=//input[@id='user_email']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "110f3103-5aec-4c66-8791-58c83e3097e8",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_email",
+      "targets": [
+        ["id=user_email", "id"],
+        ["name=user[email]", "name"],
+        ["css=.input-group > #user_email", "css:finder"],
+        ["xpath=//input[@id='user_email']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "allsemen@mail.ru"
+    }, {
+      "id": "74ff2121-5bfd-47d7-9391-6d24b165aaa0",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_password",
+      "targets": [
+        ["id=user_password", "id"],
+        ["name=user[password]", "name"],
+        ["css=#user_password", "css:finder"],
+        ["xpath=//input[@id='user_password']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "554fbd35-757f-4fa7-8a4f-0908978ead52",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_password",
+      "targets": [
+        ["id=user_password", "id"],
+        ["name=user[password]", "name"],
+        ["css=#user_password", "css:finder"],
+        ["xpath=//input[@id='user_password']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "terminator5"
+    }, {
+      "id": "b3816da8-c631-43b2-88a8-f379b890eae7",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/input[3]", "xpath:idRelative"],
+        ["xpath=//div/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2a01ecdb-48bd-4080-8865-37d23ccf0a6a",
+    "name": "Test \"Openweather 2\"",
+    "commands": [{
+      "id": "513a8656-e91e-4b34-9f3e-851dead4878e",
+      "comment": "",
+      "command": "open",
+      "target": "https://home.openweathermap.org/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2ff3d68-b576-44af-b180-a2b10dad55cd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f39601fb-bd44-47a1-90be-fc3928ced84b",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_email",
+      "targets": [
+        ["id=user_email", "id"],
+        ["name=user[email]", "name"],
+        ["css=.input-group > #user_email", "css:finder"],
+        ["xpath=//input[@id='user_email']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44194816-763a-4e43-83ab-6834962055f4",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_email",
+      "targets": [
+        ["id=user_email", "id"],
+        ["name=user[email]", "name"],
+        ["css=.input-group > #user_email", "css:finder"],
+        ["xpath=//input[@id='user_email']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "allsemen@mail.ru"
+    }, {
+      "id": "c36e2d0e-a259-486f-bde7-56d177302213",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_password",
+      "targets": [
+        ["id=user_password", "id"],
+        ["name=user[password]", "name"],
+        ["css=#user_password", "css:finder"],
+        ["xpath=//input[@id='user_password']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82d10bc9-8b79-477a-9f2c-574eb26fd90f",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_password",
+      "targets": [
+        ["id=user_password", "id"],
+        ["name=user[password]", "name"],
+        ["css=#user_password", "css:finder"],
+        ["xpath=//input[@id='user_password']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "terminator5"
+    }, {
+      "id": "265a8922-bdc6-4afa-ad6a-43c294e641c2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=user_password",
+      "targets": [
+        ["id=user_password", "id"],
+        ["name=user[password]", "name"],
+        ["css=#user_password", "css:finder"],
+        ["xpath=//input[@id='user_password']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "962570ae-d507-46dd-afe8-5c9807c25823",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=API keys",
+      "targets": [
+        ["linkText=API keys", "linkText"],
+        ["css=#myTab > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'API keys')]", "xpath:link"],
+        ["xpath=//ul[@id='myTab']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/api_keys')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'API keys')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2110e111-38fa-42d1-a052-f27fe6f159fb",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=.button-round:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='new_api_key_form']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f6df9aa-6648-4e8f-9ebc-b9755cb5fa3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=api_key_form_name",
+      "targets": [
+        ["id=api_key_form_name", "id"],
+        ["name=api_key_form[name]", "name"],
+        ["css=#api_key_form_name", "css:finder"],
+        ["xpath=//input[@id='api_key_form_name']", "xpath:attributes"],
+        ["xpath=//form[@id='new_api_key_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5e426dc-d172-4b91-afff-ed7fdc6b508e",
+      "comment": "",
+      "command": "type",
+      "target": "id=api_key_form_name",
+      "targets": [
+        ["id=api_key_form_name", "id"],
+        ["name=api_key_form[name]", "name"],
+        ["css=#api_key_form_name", "css:finder"],
+        ["xpath=//input[@id='api_key_form_name']", "xpath:attributes"],
+        ["xpath=//form[@id='new_api_key_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[3]", "xpath:position"]
+      ],
+      "value": "Key2"
+    }, {
+      "id": "133aa876-a1ab-495c-b4e0-177f4bbc8444",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=.button-round:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='new_api_key_form']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "058a9594-9e3a-460f-a69c-6a9ca3b40db0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://crm.geekbrains.space/", "https://home.openweathermap.org/users/sign_in"],
+  "plugins": []
+}
